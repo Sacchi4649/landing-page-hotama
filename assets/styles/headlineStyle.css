@@ -1,0 +1,53 @@
+.headline {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 48px;
+  padding-top: 280px;
+  padding-bottom: 96px;
+  background-image: url("../images/main_cover.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+.headline-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.main-headline {
+  color: #fcfcfc;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sub-headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.sub-headline > p {
+  color: #fcfcfc;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lets-talk-container {
+  display: flex;
+  justify-content: center;
+}
