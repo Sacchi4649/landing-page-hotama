@@ -5,7 +5,6 @@
   gap: 48px;
   padding-top: 280px;
   padding-bottom: 96px;
-  background-image: url("../images/main_cover.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -50,4 +49,9 @@
 .lets-talk-container {
   display: flex;
   justify-content: center;
+}
+
+.teal-circle {
+  position: absolute;
+  opacity: 0.5;
 }

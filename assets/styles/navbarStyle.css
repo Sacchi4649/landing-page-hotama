@@ -1,9 +1,11 @@
 .navbar {
-  background: #fbfbfb;
+  /* background: #ffffff00; */
+  background-color: rgba(255, 255, 255, 0);
   display: flex;
-  justify-content: space-between;
-  padding: 0 100px;
-  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 0 100px; */
+  height: 72px;
 }
 
 .logo {
@@ -15,16 +17,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  /* gap: 36px; */
 }
 
 .menu > a {
-  color: #212427;
+  color: #1c2d41;
   text-align: center;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 14x;
   font-style: normal;
-  font-weight: 400;
+  font-weight: bold;
   line-height: normal;
   display: inline-flex;
   margin: 0 30px;
@@ -34,4 +36,10 @@
 .menu > a:hover {
   /* font-weight: bold; */
   color: #10957d;
+}
+
+.navbar button {
+  font-size: 14px;
+  flex-basis: 116px;
+  height: 34px;
 }
