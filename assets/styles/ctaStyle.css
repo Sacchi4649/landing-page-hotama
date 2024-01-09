@@ -1,0 +1,91 @@
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 152px;
+  margin-bottom: 192px;
+  gap: 112px;
+}
+
+.right-cta-container {
+  display: flex;
+  flex-basis: 576px;
+  gap: 68px;
+  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+  top: 1;
+  left: 1;
+}
+
+/* .right-cta-container >  {
+  display: flex;
+  flex-direction: column;
+} */
+
+.right-cta-container div > h2 {
+  color: #212427;
+  text-align: right;
+  font-family: Plus Jakarta Sans;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.right-cta-container div > h2::before {
+  content: url(../images/star.png);
+  display: inline-block;
+  position: absolute;
+  top: -40px;
+  left: -20px;
+}
+
+.right-cta-container div > p {
+  color: #212427;
+  text-align: right;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  position: relative;
+}
+
+.right-cta-container div > p::after {
+  content: url(../images/sparkle.png);
+  position: absolute;
+  top: 80px;
+}
+
+/* .right-cta-container button {
+  justify-content: flex-start;
+} */
+
+.span-cta-h2 {
+  color: #10957d;
+  font-family: Plus Jakarta Sans;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.span-cta-p {
+  color: #10957d;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.star {
+  position: absolute;
+}
+
+.sparkle {
+  position: absolute;
+}
