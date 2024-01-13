@@ -37,3 +37,10 @@
   line-height: normal;
   text-align: left;
 }
+
+.left-about-container::after {
+  content: url(../images/founder_card.png);
+  position: absolute;
+  bottom: -70px;
+  right: -125px;
+}
