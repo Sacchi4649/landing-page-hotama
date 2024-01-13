@@ -1,0 +1,130 @@
+.services {
+  background: #10957d;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-image: url(../images/services_pattern.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  gap: 80px;
+  padding-top: 100px;
+  padding-bottom: 120px;
+  margin-bottom: 98px;
+}
+
+.top-services-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.main-services-text > h2 {
+  color: var(--Default-White, #fff);
+  text-align: center;
+  font-feature-settings: "liga" off;
+  font-family: Plus Jakarta Sans;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 114.286% */
+}
+
+.sub-services-text > p {
+  color: #fff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+
+  width: 692px;
+}
+
+.bot-services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.bot-services-container h3 {
+  color: var(--Text-Gray-900, #18191f);
+  font-feature-settings: "liga" off;
+
+  /* Heading / H5 */
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+
+  margin-bottom: 12px;
+}
+
+.bot-services-container p {
+  color: var(--Text-Gray-900, #18191f);
+  font-feature-settings: "liga" off;
+
+  /* Body / Body 1 */
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  width: 294px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.bot-services-container a {
+  color: #10957d;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Label / Small Label */
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+}
+
+.bot-services-container a:hover {
+  transform: translate(3.2px, -3.5px);
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.website_card,
+.mobile_card,
+.digital_content_card,
+.seo_card,
+.consulting_card,
+.digital_strategist_card {
+  display: inline-flex;
+  padding: 40px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 350px;
+  height: 354px;
+  border-radius: 8px;
+  background: var(--Default-White, #fff);
+}
+
+.website_card img,
+.mobile_card img,
+.digital_content_card img,
+.seo_card img,
+.consulting_card img,
+.digital_strategist_card img {
+  margin-bottom: 56px;
+}
