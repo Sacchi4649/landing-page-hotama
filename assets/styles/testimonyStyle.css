@@ -1,0 +1,85 @@
+.testimony {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  background: #10957d;
+  padding-top: 74px;
+  padding-bottom: 80px;
+  background-image: url(../images/quote_mark.png);
+  background-repeat: no-repeat;
+  background-position: right 124px top 70px;
+}
+.testimony-main-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 165px;
+}
+.testimonies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimony h2 {
+  color: var(--Default-White, #fff);
+  font-feature-settings: "liga" off;
+  font-family: Plus Jakarta Sans;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 114.286% */
+}
+
+.slider-wrapper {
+  position: relative;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  /* box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25); */
+  -ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+  scrollbar-width: none; /* Hide scrollbar Firefox */
+  padding-top: 38px;
+  padding-bottom: 40px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider img {
+  flex: 1 0;
+  scroll-snap-align: start;
+  object-fit: cover;
+}
+
+.slider-nav {
+  margin-top: 40px;
+  display: flex;
+  column-gap: 1rem;
+  /* position: absolute; */
+  /* bottom: -3rem; */
+  left: 1127px;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: 0.75;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a {
+  opacity: 1;
+}
