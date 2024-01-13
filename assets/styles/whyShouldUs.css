@@ -47,11 +47,18 @@ h2 {
   
 }
 
-.container {
+.container .column1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 30px 10px;
+ 
+}
+
+.container .column2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
 }
 
 .card {
