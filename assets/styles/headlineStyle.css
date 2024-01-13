@@ -26,7 +26,7 @@
   position: relative;
 }
 
-.main-headline div > p {
+.main-headline div > h1 {
   color: var(--Text-Gray-900, #212427);
 
   /* Heading / H1 */
