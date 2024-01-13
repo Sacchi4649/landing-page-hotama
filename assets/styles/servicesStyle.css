@@ -103,12 +103,12 @@
   font-size: 14px;
 }
 
-.website_card,
-.mobile_card,
-.digital_content_card,
-.seo_card,
-.consulting_card,
-.digital_strategist_card {
+.website-card,
+.mobile-card,
+.digital-content-card,
+.seo-card,
+.consulting-card,
+.digital-strategist-card {
   display: inline-flex;
   padding: 40px 32px;
   flex-direction: column;

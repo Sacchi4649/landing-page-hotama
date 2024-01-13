@@ -1,49 +1,82 @@
-h2 {
-  font-family: "Plus Jakarta Sans";
+.why-should-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 76px;
+  margin-bottom: 100px;
+}
+
+.why-should-us-top-container {
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  width: 742px;
+}
+
+.why-should-us-top-container > h2 {
+  color: #212427;
+  font-family: Plus Jakarta Sans;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.why-should-us-top-container > p {
+  color: rgba(33, 36, 39, 0.8);
   text-align: center;
-  font-size: 60px;
-  color: black;
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.subtitle {
-  font-family: "Plus Jakarta Sans";
-  font-size: 25px;
-  color: rgb(21, 24, 27);
-  position: relative;
-  margin-top: 2%;
+.why-should-us-bot-container {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
 }
-
-.container p {
+.why-should-us-bot-container p {
   font-family: "Plus Jakarta Sans";
   font-size: 16px;
   color: rgb(21, 24, 27);
 }
 
-.container h3 {
+.why-should-us-bot-container h3 {
   font-family: "Plus Jakarta Sans";
   font-size: 22px;
   color: rgb(21, 24, 27);
+  margin-bottom: 8px;
 }
 
-.card img {
-  height: 65px;
-  width: 70px;
-  position: relative;
-}
-
-.container .column1 {
+.card-top-row {
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 30px;
 }
 
-.container .column2 {
+.card-bot-row {
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 130px;
 }
 
 .card {
-  margin: 10px 90px;
-  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+}
+.card img {
+  height: 64px;
+  width: 64px;
+  margin-bottom: 24px;
 }
