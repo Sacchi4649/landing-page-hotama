@@ -39,17 +39,6 @@
   text-align: left;
 }
 
-.main-headline-span {
-  color: var(--Text-Gray-900, #10957d);
-
-  /* Heading / H1 */
-  font-family: Plus Jakarta Sans;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
 .sub-headline > p {
   color: #18191f;
   font-feature-settings: "liga" off;

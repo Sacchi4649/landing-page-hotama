@@ -31,3 +31,7 @@ body * {
   border-radius: 5px;
   background: #10957d;
 }
+
+span {
+  color: rgb(16, 149, 125);
+}

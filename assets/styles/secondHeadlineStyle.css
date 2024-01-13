@@ -47,15 +47,6 @@
   margin-bottom: 90px;
 }
 
-.second-headline-span {
-  color: #10957d;
-  font-family: Plus Jakarta Sans;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
 .discover-more::before {
   content: url(../images/decorations_dots.png);
   width: 98.475px;
