@@ -1,57 +1,81 @@
 .headline {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 48px;
-  padding-top: 280px;
-  padding-bottom: 96px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  gap: 24px;
+  padding-top: 146px;
+  padding-bottom: 200px;
 }
 
-.headline-container {
+.left-headline-container {
+  margin-top: 52px;
   display: flex;
-  justify-content: center;
+  flex-basis: 648px;
   flex-direction: column;
-  gap: 23px;
+  align-items: flex-start;
+
+  gap: 32px;
 }
 
-.main-headline {
-  color: #fcfcfc;
-  text-align: center;
+.right-headline-container {
+  width: 518px;
+  height: 388px;
+
+  flex-shrink: 0;
+  position: relative;
+}
+
+.main-headline div > p {
+  color: var(--Text-Gray-900, #212427);
+
+  /* Heading / H1 */
   font-family: Plus Jakarta Sans;
-  font-size: 56px;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  text-align: left;
+}
+
+.main-headline-span {
+  color: var(--Text-Gray-900, #10957d);
+
+  /* Heading / H1 */
+  font-family: Plus Jakarta Sans;
+  font-size: 64px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
-.sub-headline {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
 .sub-headline > p {
-  color: #fcfcfc;
-  text-align: center;
-  font-family: Plus Jakarta Sans;
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: normal;
-}
+  color: #18191f;
+  font-feature-settings: "liga" off;
 
-.lets-talk-container {
-  display: flex;
-  justify-content: center;
+  /* Lead / Lead 1 */
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
 }
 
 .teal-circle {
   position: absolute;
   opacity: 0.5;
+}
+
+.right-headline-container::before {
+  content: url(../images/yellow_circle.png);
+  position: absolute;
+  top: 219px;
+  left: -20px;
+}
+
+.right-headline-container::after {
+  content: url(../images/light_green_circle.png);
+  position: absolute;
+  top: 480px;
 }

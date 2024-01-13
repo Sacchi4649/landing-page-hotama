@@ -2,10 +2,11 @@
   background: #ffffff00;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   /* padding: 0 100px; */
   height: 72px;
+  padding: 0 84px;
 }
 
 .logo {
@@ -15,21 +16,19 @@
 
 .menu {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
-  /* gap: 36px; */
+  gap: 36px;
 }
 
 .menu > a {
   color: #1c2d41;
-  text-align: center;
-  font-family: Inter;
-  font-size: 14x;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
   font-style: normal;
-  font-weight: bold;
-  line-height: normal;
-  display: inline-flex;
-  margin: 0 30px;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
   text-decoration: none;
 }
 
@@ -40,6 +39,18 @@
 
 .navbar button {
   font-size: 14px;
-  flex-basis: 116px;
+  flex-basis: 121px;
   height: 34px;
+  border-radius: 5px;
+  border: 1px solid #10957d;
+  background: #10957d00;
+  color: #10957d;
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Label / Medium Label */
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
 }
