@@ -1,7 +1,7 @@
 .testimony {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-end; */
+  justify-content: center;
   background: #10957d;
   padding-top: 74px;
   padding-bottom: 80px;
@@ -13,12 +13,14 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-left: 165px;
+  margin: 0 auto;
+  padding-right: 700px;
 }
 .testimonies {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .testimony h2 {
@@ -40,7 +42,7 @@
 .slider {
   display: flex;
   overflow-x: auto;
-  scroll-snap-type: x mandatory;
+  /* scroll-snap-type: x mandatory; */
   scroll-behavior: smooth;
   /* box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25); */
   -ms-overflow-style: none; /* Hide scrollbar IE and Edge */
@@ -63,12 +65,13 @@
 .slider-nav {
   margin-top: 40px;
   display: flex;
-  column-gap: 1rem;
+  gap: 1rem;
   /* position: absolute; */
   /* bottom: -3rem; */
-  left: 1127px;
+  /* left: 100%; */
   transform: translateX(-50%);
   z-index: 1;
+  margin: 0 auto;
 }
 
 .slider-nav a {
