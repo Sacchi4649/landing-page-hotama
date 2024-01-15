@@ -9,7 +9,7 @@
 
 .right-cta-container {
   display: flex;
-  flex-basis: 576px;
+  width: 39%;
   gap: 68px;
   align-items: flex-end;
   flex-direction: column;

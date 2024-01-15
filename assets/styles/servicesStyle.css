@@ -36,6 +36,10 @@
   line-height: 64px; /* 114.286% */
 }
 
+.sub-services-text {
+  width: 48%;
+}
+
 .sub-services-text > p {
   color: #fff;
   text-align: center;
@@ -44,8 +48,6 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-
-  width: 692px;
 }
 
 .bot-services-container {

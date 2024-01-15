@@ -11,7 +11,7 @@
 .left-headline-container {
   margin-top: 52px;
   display: flex;
-  flex-basis: 648px;
+  width: 44%;
   flex-direction: column;
   align-items: flex-start;
 
