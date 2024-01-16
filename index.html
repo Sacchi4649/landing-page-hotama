@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="./assets/styles/ourPartners.css" />
     <link rel="stylesheet" href="./assets/styles/ctaStyle.css" />
     <link rel="stylesheet" href="./assets/styles/footerStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <title>Hotama</title>
   </head>
   <body>
@@ -27,15 +31,15 @@
       class="teal-circle"
     />
     <header>
-      <nav class="navbar">
+      <nav class="navbar" id="navbar">
         <div class="logo">
           <img src="./assets/images/logo_header.png" alt="logo hotama" />
         </div>
         <div class="menu">
-          <a href="#">About</a>
-          <a href="#">Works</a>
-          <a href="#">Services</a>
-          <a href="#">Testimonial</a>
+          <a href="#about">About</a>
+          <a href="#portfolio">Works</a>
+          <a href="#services">Services</a>
+          <a href="#testimonial">Testimonial</a>
           <button class="button">Contact Us</button>
         </div>
       </nav>
@@ -99,7 +103,7 @@
         </div>
       </section>
 
-      <section class="about-us">
+      <section class="about-us" id="about">
         <div class="left-about-container">
           <img
             src="./assets/images/2_people_sitting_on_a_sofa.png"
@@ -138,7 +142,7 @@
         </div>
       </section>
 
-      <section class="services">
+      <section class="services" id="services">
         <div class="top-services-container">
           <div class="main-services-text">
             <h2>Elevate Your IT Experience!</h2>
@@ -229,7 +233,7 @@
         </div>
       </section>
 
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio">
         <div class="top-portfolio-container">
           <h2>Our <span>Best Works</span></h2>
         </div>
@@ -298,8 +302,6 @@
                 We conduct periodic reviews to assess and enhance our services.
               </p>
             </div>
-          </div>
-          <div class="card-bot-row">
             <div class="card">
               <img src="./assets/images/agile 2.png" />
               <h3>Agile Management</h3>
@@ -320,34 +322,233 @@
         </div>
       </section>
 
-      <section class="testimony">
-        <div class="testimony-main-text">
-          <div><h2>What They Say?</h2></div>
-        </div>
-        <div class="testimonies">
-          <div class="slider-wrapper">
-            <div class="slider">
-              <img
-                src="./assets/images/testimonial1.png"
-                alt="testimony of arabella josephine"
-                id="slide-1"
-              />
-              <img
-                src="./assets/images/testimonial2.png"
-                alt="testimony of nathaniel benjamin"
-                id="slide-2"
-              />
-              <img
-                src="./assets/images/testimonial3.png"
-                alt="testimony of anastasia cordelia"
-                id="slide-3"
-              />
-            </div>
+      <section class="testi-container">
+        <div class="testi-content">
+          <div class="testi-title">
+            <h2>What They Say?</h2>
           </div>
-          <div class="slider-nav">
-            <a href="#slide-1"></a>
-            <a href="#slide-2"></a>
-            <a href="#slide-3"></a>
+          <img src="./assets/images/quote_mark.png" alt="Quote" class="quote" />
+
+          <!-- Slider main container -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="slide">
+                  <div class="slide-text">
+                    <h3 class="slide-text-title">Incredible Experience</h3>
+                    <p>
+                      We had an incredible experience working with Hotama and
+                      were impressed they made such a big difference in only
+                      three weeks. Our team is so grateful for the wonderful
+                      improvements they made and their ability to get familiar
+                      with the concept so quickly. It acted as a catalyst to
+                      take our design to the next level and get more eyes on our
+                      product.
+                    </p>
+                  </div>
+                  <div class="arrow">
+                    <img
+                      src="./assets/images/arrow_down.png"
+                      alt="arrow-down"
+                    />
+                  </div>
+                  <div class="testi-people">
+                    <div class="people-image">
+                      <img
+                        src="./assets/images/testimony_1.png"
+                        alt="testimonial-1"
+                      />
+                    </div>
+                    <div class="people-text">
+                      <h3>Arabella Josephine</h3>
+                      <p>Direktur CV. Kreasi Kite</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide">
+                  <div class="slide-text">
+                    <h3 class="slide-text-title">Unbelievable Encounter</h3>
+                    <p>
+                      We had an incredible experience working with Hotama and
+                      were impressed they made such a big difference in only
+                      three weeks. Our team is so grateful for the wonderful
+                      improvements they made and their ability to get familiar
+                      with the concept so quickly. It acted as a catalyst to
+                      take our design to the next level and get more eyes on our
+                      product.
+                    </p>
+                  </div>
+                  <div class="arrow">
+                    <img
+                      src="./assets/images/arrow_down.png"
+                      alt="arrow-down"
+                    />
+                  </div>
+                  <div class="testi-people">
+                    <div class="people-image">
+                      <img
+                        src="./assets/images/testimony_2.png"
+                        alt="testimonial-1"
+                      />
+                    </div>
+                    <div class="people-text">
+                      <h3>Nathaniel Benjamin</h3>
+                      <p>Direktur</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide">
+                  <div class="slide-text">
+                    <h3 class="slide-text-title">
+                      Dependable, Responsive, Professional Partner
+                    </h3>
+                    <p>
+                      Being part of the collaboration with Hotama in application
+                      development has provided an incredible experience for us.
+                      Hotama is not just a development partner, but also a
+                      strategic partner who understands our vision deeply.
+                      Professional work processes, team compassion, and
+                      expertise in overcoming technical challenges made our
+                      experience with Hotama very satisfying.
+                    </p>
+                  </div>
+                  <div class="arrow">
+                    <img
+                      src="./assets/images/arrow_down.png"
+                      alt="arrow-down"
+                    />
+                  </div>
+                  <div class="testi-people">
+                    <div class="people-image">
+                      <img
+                        src="./assets/images/testimony_3.png"
+                        alt="testimonial-1"
+                      />
+                    </div>
+                    <div class="people-text">
+                      <h3>Anastasia Cordelia</h3>
+                      <p>CEO PT. ApexTeknologi</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide">
+                  <div class="slide-text">
+                    <h3 class="slide-text-title">
+                      Reliable, Quick-to-Respond, Competent Collaborator
+                    </h3>
+                    <p>
+                      The applications developed by Hotama not only adhere to
+                      high standards in design and functionality, but are also
+                      able to exceed our expectations. They not only focus on
+                      the current task, but always think ahead to help us
+                      formulate a long-term vision and future opportunities.
+                      Their expertise in integrating innovative features and
+                      solutions that fit our specific needs was a significant
+                      added value.
+                    </p>
+                  </div>
+                  <div class="arrow">
+                    <img
+                      src="./assets/images/arrow_down.png"
+                      alt="arrow-down"
+                    />
+                  </div>
+                  <div class="testi-people">
+                    <div class="people-image">
+                      <img
+                        src="./assets/images/testimony_4.png"
+                        alt="testimonial-1"
+                      />
+                    </div>
+                    <div class="people-text">
+                      <h3>Valentina Octavia</h3>
+                      <p>CEO PT. Quantum Teknologi</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide">
+                  <div class="slide-text">
+                    <h3 class="slide-text-title">
+                      Hotama Takes Web Design to New Heights
+                    </h3>
+                    <p>
+                      The website they produced not only reflects high design
+                      expertise and functionality, but also reflects their deep
+                      understanding of our brand identity and vision. Hotama not
+                      only completed the project, but they were committed to
+                      providing a solution that exceeded our expectations. They
+                      are always willing to collaborate, provide creative ideas,
+                      and explain each step clearly.
+                    </p>
+                  </div>
+                  <div class="arrow">
+                    <img
+                      src="./assets/images/arrow_down.png"
+                      alt="arrow-down"
+                    />
+                  </div>
+                  <div class="testi-people">
+                    <div class="people-image">
+                      <img
+                        src="./assets/images/testimony_5.png"
+                        alt="testimonial-1"
+                      />
+                    </div>
+                    <div class="people-text">
+                      <h3>Ophelia Celestine</h3>
+                      <p>CEO PT. InovasiTek Terkini</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide">
+                  <div class="slide-text">
+                    <h3 class="slide-text-title">
+                      Strategic Partner in Website Excellence
+                    </h3>
+                    <p>
+                      Working with Hotama on the development of our website has
+                      been a great experience. Hotama is not just a provider of
+                      website creation services, but a very dedicated strategic
+                      partner. From start to finish of the project, the Hotama
+                      team has demonstrated a high level of professionalism,
+                      extraordinary creativity and consistent commitment to
+                      delivering the best results.
+                    </p>
+                  </div>
+                  <div class="arrow">
+                    <img
+                      src="./assets/images/arrow_down.png"
+                      alt="arrow-down"
+                    />
+                  </div>
+                  <div class="testi-people">
+                    <div class="people-image">
+                      <img
+                        src="./assets/images/testimony_6.png"
+                        alt="testimonial-1"
+                      />
+                    </div>
+                    <div class="people-text">
+                      <h3>Jonathan Alexander</h3>
+                      <p>CEO PT. InnovateTek</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="navigation-container">
+              <div class="swiper-pagination"></div>
+            </div>
           </div>
         </div>
       </section>
@@ -405,65 +606,89 @@
       </section>
     </main>
     <footer>
-      <div class="hotama-column">
-        <div class="company-logo">
-          <img
-            src="./assets/images/logo_footer.png"
-            alt="logo-hotama"
-            class="company-logo"
-          />
+      <div class="footer-container">
+        <div class="hotama-column">
+          <div class="company-logo">
+            <img
+              src="./assets/images/logo_footer.png"
+              alt="logo-hotama"
+              class="company-logo"
+            />
+          </div>
+          <div class="company-desc">
+            <p>
+              PT Kreasi Putra Hotama is a reputable software development and IT
+              consulting company with over 10 years of experience
+            </p>
+          </div>
+          <div class="social-media">
+            <a href="#"
+              ><img
+                src="./assets/images/facebook_icon.png"
+                alt="facebook icon"
+                style="height: 32px"
+            /></a>
+            <a href="#"
+              ><img src="./assets/images/linkedin_icon.png" alt="linkedin icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="./assets/images/instagram_icon.png"
+                alt="instagram icon"
+            /></a>
+          </div>
         </div>
-        <div class="company-desc">
-          <p>
-            PT Kreasi Putra Hotama is a reputable software development and IT
-            consulting company with over 10 years of experience
-          </p>
-        </div>
-        <div class="social-media">
-          <a href="#"
-            ><img
-              src="./assets/images/facebook_icon.png"
-              alt="facebook icon"
-              style="height: 32px"
-          /></a>
-          <a href="#"
-            ><img src="./assets/images/linkedin_icon.png" alt="linkedin icon"
-          /></a>
-          <a href="#"
-            ><img src="./assets/images/instagram_icon.png" alt="instagram icon"
-          /></a>
-        </div>
-      </div>
 
-      <div class="contact-column">
-        <h4>Contact</h4>
-        <div>
-          <p>
-            <strong>Address</strong> : Sungai Raya Dalam Street, Golden City
-            Complex, No D3. Pontianak, West Borneo 78391
-          </p>
+        <div class="contact-column">
+          <h4>Contact</h4>
+          <div>
+            <p>
+              <strong>Address</strong> : Sungai Raya Dalam Street, Golden City
+              Complex, No D3. Pontianak, West Borneo 78391
+            </p>
+          </div>
+          <div>
+            <p><strong>Phone </strong>: (+62) 8114867735</p>
+          </div>
+          <div>
+            <p><strong>E-mail </strong>: hi@hotama.co.id</p>
+          </div>
         </div>
-        <div>
-          <p><strong>Phone </strong>: (+62) 8114867735</p>
-        </div>
-        <div>
-          <p><strong>E-mail </strong>: hi@hotama.co.id</p>
-        </div>
-      </div>
 
-      <div class="company-column">
-        <h4>Company</h4>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Partners</a></li>
-        <li><a href="#">Privacy & Policy</a></li>
-      </div>
+        <div class="company-column">
+          <h4>Company</h4>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">Privacy & Policy</a></li>
+        </div>
 
-      <div class="information-column">
-        <h4>Infomation</h4>
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">About Us</a></li>
+        <div class="information-column">
+          <h4>Infomation</h4>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">About Us</a></li>
+        </div>
       </div>
     </footer>
   </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      slidesPerView: 2,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          console.log(className);
+          return `<span class="${className}"></span>`;
+        },
+      },
+    });
+  </script>
 </html>

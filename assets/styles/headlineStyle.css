@@ -19,7 +19,7 @@
 }
 
 .right-headline-container {
-  width: 518px;
+  width: auto;
   height: 388px;
 
   flex-shrink: 0;
@@ -59,12 +59,13 @@
 .right-headline-container::before {
   content: url(../images/yellow_circle.png);
   position: absolute;
-  top: 219px;
-  left: -20px;
+  top: 56%;
+  left: -2%;
 }
 
 .right-headline-container::after {
   content: url(../images/light_green_circle.png);
   position: absolute;
-  top: 480px;
+  bottom: -36%;
+  left: 40%;
 }

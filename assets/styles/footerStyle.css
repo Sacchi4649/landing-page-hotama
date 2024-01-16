@@ -1,17 +1,27 @@
 footer {
   display: flex;
+  justify-content: center;
+
   align-items: flex-start;
-  justify-content: space-around;
-  flex-wrap: wrap;
   border-top: 1px solid #d3d3d3;
   background: #272732;
-
+  /* 
   padding-top: 100px;
-  padding-bottom: 32px;
-  /* @media (max-width: 600px) {
-      display: flex;
-      flex-direction: column;
-    } */
+  padding-bottom: 32px; */
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 90dvw;
+  gap: 8%;
+}
+
+.footer-container > div {
+  margin-top: 8%;
+  margin-bottom: 32px;
 }
 
 footer p {
@@ -56,12 +66,12 @@ footer li {
 
   flex-basis: 313px;
   gap: 34px;
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
     gap: 16px;
-  }
+  } */
 }
 
 .company-desc {
@@ -93,10 +103,10 @@ footer li {
   gap: 16px;
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   footer {
     display: flex;
     flex-direction: column;
     padding-bottom: 40px;
   }
-}
+} */
