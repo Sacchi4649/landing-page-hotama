@@ -14,7 +14,7 @@ html * {
 
 body * {
   /* border hanya untuk membantu saat pengaplikasian flex */
-  border: 1px solid rgb(230, 129, 129);
+  /* border: 1px solid rgb(230, 129, 129); */
   position: relative;
   top: 1px;
   right: 1px;

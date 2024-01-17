@@ -40,6 +40,13 @@
 }
 
 @media (min-width: 601px) and (max-width: 800px) {
+  .portfolio {
+    padding-bottom: 56px;
+  }
+
+  .portfolio {
+    gap: 40px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -47,7 +54,7 @@
     font-size: 38px;
   }
   .portfolio {
-    padding-top: 39px;
+    padding-top: 58px;
     padding-bottom: 56px;
     gap: 40px;
   }

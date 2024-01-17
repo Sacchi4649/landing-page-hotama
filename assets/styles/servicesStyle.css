@@ -112,7 +112,7 @@
   padding: 40px 32px;
   flex-direction: column;
   align-items: flex-start;
-
+  max-width: 90dvw;
   width: 350px;
   height: 354px;
   border-radius: 8px;
