@@ -38,3 +38,20 @@
 .mid-portfolio-container img:hover {
   transform: scale(1.1);
 }
+
+@media (min-width: 601px) and (max-width: 800px) {
+}
+
+@media (max-width: 600px) {
+  .top-portfolio-container h2 {
+    font-size: 38px;
+  }
+  .portfolio {
+    padding-top: 39px;
+    padding-bottom: 56px;
+    gap: 40px;
+  }
+  .mid-portfolio-container {
+    gap: 32px;
+  }
+}
