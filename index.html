@@ -23,6 +23,23 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <title>Hotama</title>
+    <script>
+      function contactUs() {
+        const phoneNumber = "62"; //isi nomor whatsapp disini
+        const message = encodeURIComponent(
+          "Hi, I would like to collaborate with Hotama."
+        );
+
+        const URL =
+          "https://api.whatsapp.com/send?phone=" +
+          phoneNumber +
+          "&text=" +
+          message +
+          "";
+
+        window.open(URL, "_blank");
+      }
+    </script>
   </head>
   <body>
     <img
@@ -40,7 +57,8 @@
           <a href="#portfolio">Works</a>
           <a href="#services">Services</a>
           <a href="#testimonial">Testimonial</a>
-          <button class="button">Contact Us</button>
+
+          <button onclick="contactUs()" class="button">Contact Us</button>
         </div>
       </nav>
     </header>
@@ -80,25 +98,25 @@
             achievements.
           </p>
         </div>
-        <div class="statistic_numbers">
-          <div>
+        <div class="statistic-numbers">
+          <div class="statistic-container">
             <div class="number"><p>10+</p></div>
             <div class="text"><p>Years of Experience</p></div>
           </div>
           <div class="border"></div>
-          <div>
+          <div class="statistic-container">
             <div class="number"><p>100+</p></div>
             <div class="text"><p>Professionals</p></div>
           </div>
-          <div class="border"></div>
-          <div>
+          <div class="border tablet-none"></div>
+          <div class="statistic-container">
             <div class="number"><p>50+</p></div>
             <div class="text"><p>Amazing Projects</p></div>
           </div>
           <div class="border"></div>
-          <div>
+          <div class="statistic-container">
             <div class="number"><p>200+</p></div>
-            <div class="text"><p>Satisfied Workers</p></div>
+            <div class="text"><p>Satisfied Partners</p></div>
           </div>
         </div>
       </section>
@@ -322,7 +340,7 @@
         </div>
       </section>
 
-      <section class="testi-container">
+      <section class="testi-container" id="testimonial">
         <div class="testi-content">
           <div class="testi-title">
             <h2>What They Say?</h2>
@@ -602,7 +620,9 @@
               <span>Let's embark on a journey of growth together!</span>
             </p>
           </div>
-          <div><button class="button">Get In Touch!</button></div>
+          <div>
+            <button onclick="contactUs()" class="button">Get In Touch!</button>
+          </div>
         </div>
       </section>
     </main>

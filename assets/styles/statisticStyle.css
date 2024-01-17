@@ -35,7 +35,7 @@
   line-height: 32px; /* 177.778% */
 }
 
-.statistic_numbers {
+.statistic-numbers {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -43,9 +43,8 @@
   margin-top: 46px;
 }
 
-.number,
-.text {
-  width: 255px;
+.statistic-container {
+  width: 230px;
 }
 
 .number > p {
@@ -77,4 +76,22 @@
 .border {
   border: #fff 1px solid;
   opacity: 0.4;
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 800px) {
+  .tablet-none {
+    display: none;
+  }
+}
+
+/* Mobile Phone  */
+@media (max-width: 600px) {
+  .main-statistic-text > p {
+    font-size: 42px;
+  }
+
+  .border {
+    display: none;
+  }
 }
