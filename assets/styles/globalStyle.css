@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 
-html {
+html * {
   scroll-behavior: smooth;
 }
 
@@ -41,4 +41,12 @@ body * {
 
 span {
   color: rgb(16, 149, 125);
+}
+
+@media (max-width: 600px) {
+  .button {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+  }
 }

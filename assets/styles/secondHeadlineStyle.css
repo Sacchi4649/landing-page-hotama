@@ -49,9 +49,7 @@
 
 .discover-more::before {
   content: url(../images/decorations_dots.png);
-  width: 98.475px;
-  height: 70.926px;
-  flex-shrink: 0;
+
   position: absolute;
   left: 100px;
   bottom: 15px;
@@ -59,10 +57,44 @@
 
 .discover-more::after {
   content: url(../images/decorations_dots.png);
-  width: 98.475px;
-  height: 70.926px;
-  flex-shrink: 0;
+
   position: absolute;
   right: 100px;
   top: -300px;
+}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 800px) {
+  .second-headline {
+    margin-bottom: 128px;
+  }
+  .discover-more::before {
+    content: "";
+  }
+
+  .discover-more::after {
+    content: "";
+  }
+}
+
+/* Mobile Phone  */
+@media (max-width: 600px) {
+  .second-headline {
+    margin-bottom: 68px;
+  }
+  .second-headline-maintext {
+    font-size: 46px;
+  }
+
+  .second-headline-subtext > p {
+    font-size: 18px;
+  }
+
+  .discover-more::before {
+    content: "";
+  }
+
+  .discover-more::after {
+    content: "";
+  }
 }

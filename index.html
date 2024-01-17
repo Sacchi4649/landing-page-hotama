@@ -22,6 +22,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Hotama</title>
     <script>
       function contactUs() {
@@ -42,21 +46,23 @@
     </script>
   </head>
   <body>
-    <img
-      src="./assets/images/teal_circle.png"
-      alt="teal circle"
-      class="teal-circle"
-    />
+    <div class="teal-circle">
+      <img src="./assets/images/teal_circle.png" alt="teal circle" />
+    </div>
+
     <header>
       <nav class="navbar" id="navbar">
         <div class="logo">
           <img src="./assets/images/logo_header.png" alt="logo hotama" />
         </div>
-        <div class="menu">
+        <div class="menu" id="nav-menu">
           <a href="#about">About</a>
           <a href="#portfolio">Works</a>
           <a href="#services">Services</a>
           <a href="#testimonial">Testimonial</a>
+          <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
 
           <button onclick="contactUs()" class="button">Contact Us</button>
         </div>
@@ -711,5 +717,15 @@
         },
       },
     });
+  </script>
+  <script>
+    function toggleMenu() {
+      var x = document.getElementById("nav-menu");
+      if (x.className === "menu") {
+        x.className += " responsive";
+      } else {
+        x.className = "menu";
+      }
+    }
   </script>
 </html>

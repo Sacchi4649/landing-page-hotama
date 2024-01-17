@@ -5,6 +5,7 @@
   margin-top: 152px;
   margin-bottom: 192px;
   gap: 112px;
+  flex-wrap: wrap;
 }
 
 .right-cta-container {
@@ -61,4 +62,10 @@
 
 .sparkle {
   position: absolute;
+}
+
+@media (max-width: 800px) {
+  .left-cta-container > img {
+    display: none;
+  }
 }
