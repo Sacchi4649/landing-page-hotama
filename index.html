@@ -27,23 +27,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <title>Hotama</title>
-    <script>
-      function contactUs() {
-        const phoneNumber = "62"; //isi nomor whatsapp disini
-        const message = encodeURIComponent(
-          "Hi, I would like to collaborate with Hotama."
-        );
-
-        const URL =
-          "https://api.whatsapp.com/send?phone=" +
-          phoneNumber +
-          "&text=" +
-          message +
-          "";
-
-        window.open(URL, "_blank");
-      }
-    </script>
   </head>
   <body>
     <div class="teal-circle">
@@ -578,7 +561,7 @@
         </div>
       </section>
 
-      <section class="our-partners">
+      <section class="our-partners" id="partners">
         <div class="our-partners-top-container">
           <h2>Our <span>Partners</span></h2>
 
@@ -646,16 +629,20 @@
             </p>
           </div>
           <div class="social-media">
-            <a href="#"
+            <a href="https://www.facebook.com/kreasiputrahotama" target="_blank"
               ><img
                 src="./assets/images/facebook_icon.png"
                 alt="facebook icon"
                 style="height: 32px"
             /></a>
-            <a href="#"
+            <a
+              href="https://www.linkedin.com/company/putrahotama/mycompany/"
+              target="_blank"
               ><img src="./assets/images/linkedin_icon.png" alt="linkedin icon"
             /></a>
-            <a href="#"
+            <a
+              href="https://www.instagram.com/kreasiputrahotama/"
+              target="_blank"
               ><img
                 src="./assets/images/instagram_icon.png"
                 alt="instagram icon"
@@ -681,9 +668,9 @@
 
         <div class="company-column">
           <h4>Company</h4>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Partners</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Products</a></li>
+          <li><a href="#partners">Partners</a></li>
           <li><a href="#">Privacy & Policy</a></li>
         </div>
 
@@ -714,6 +701,23 @@
         },
       },
     });
+  </script>
+  <script>
+    function contactUs() {
+      const phoneNumber = "628114867735";
+      const message = encodeURIComponent(
+        "Hi, I would like to collaborate with Hotama."
+      );
+
+      const URL =
+        "https://api.whatsapp.com/send?phone=" +
+        phoneNumber +
+        "&text=" +
+        message +
+        "";
+
+      window.open(URL, "_blank");
+    }
   </script>
   <script>
     function toggleMenu() {
