@@ -79,19 +79,26 @@
 }
 
 /* Tablet */
-@media (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 601px) and (max-width: 800px) {
   .tablet-none {
     display: none;
+  }
+  .statistic {
+    margin-bottom: 120px;
   }
 }
 
 /* Mobile Phone  */
 @media (max-width: 600px) {
   .main-statistic-text > p {
-    font-size: 42px;
+    font-size: 38px;
   }
 
   .border {
     display: none;
+  }
+
+  .statistic {
+    margin-bottom: 80px;
   }
 }

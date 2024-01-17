@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 158px;
+  flex-wrap: wrap;
 }
 
 .left-about-container {
@@ -10,7 +11,7 @@
 }
 
 .right-about-container {
-  flex-basis: 34%;
+  width: 34%;
 }
 
 .right-about-container > h2 {
@@ -39,4 +40,77 @@
   position: absolute;
   bottom: -70px;
   right: -125px;
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 800px) {
+  .about-us {
+    gap: 92px;
+  }
+
+  .left-about-container {
+    margin-right: 0;
+  }
+
+  .left-about-container::after {
+    content: url(../images/founder_card_tablet.png);
+    position: absolute;
+    bottom: -56px;
+    left: -120px;
+  }
+  .left-about-container > img {
+    width: 460px;
+    height: auto;
+  }
+
+  .right-about-container {
+    width: 80%;
+  }
+
+  .right-about-container > h2 {
+    text-align: center;
+  }
+
+  .right-about-container > p {
+    text-align: center;
+  }
+}
+
+/* Mobile Phone  */
+@media (max-width: 600px) {
+  .about-us {
+    gap: 62px;
+    margin-bottom: 110px;
+  }
+
+  .left-about-container {
+    margin-right: 0;
+  }
+
+  .left-about-container > img {
+    width: 320px;
+    height: auto;
+  }
+
+  .left-about-container::after {
+    content: url(../images/founder_card_mobile.png);
+    position: absolute;
+    bottom: -56px;
+    left: -120px;
+  }
+
+  .right-about-container {
+    width: 80%;
+  }
+
+  .right-about-container > h2 {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .right-about-container > p {
+    text-align: center;
+    font-size: 16px;
+  }
 }
