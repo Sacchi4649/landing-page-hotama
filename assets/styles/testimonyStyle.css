@@ -151,3 +151,32 @@
 .swiper-pagination-bullet-active {
   background: #fff !important;
 }
+
+@media (min-width: 601px) and (max-width: 800px) {
+  /* Styles for tablets */
+  .testi-content {
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Styles for mobile devices */
+
+  .testi-content {
+    width: 90%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Make sure each slide takes 100% width */
+  }
+
+  .swiper-container {
+    overflow: hidden; /* Hide overflow for smaller screens */
+  }
+}
