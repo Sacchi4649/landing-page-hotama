@@ -1,4 +1,4 @@
-.testi-container {
+.testimony {
   margin-top: 50px;
   width: 100%;
   display: flex;
@@ -90,6 +90,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   gap: 16px;
 }
 .people-image > img {

@@ -50,3 +50,36 @@
   justify-content: center;
   align-items: center;
 }
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 800px) {
+  .our-partners {
+    padding-bottom: 59px;
+  }
+  .our-partners-top-container {
+    width: 76%;
+  }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+  .our-partners {
+    padding-bottom: 59px;
+  }
+  .our-partners-top-container {
+    width: 76%;
+    margin-bottom: 50px;
+  }
+
+  .our-partners-top-container > h2 {
+    font-size: 46px;
+  }
+
+  .our-partners-top-container > p {
+    font-size: 18px;
+  }
+
+  .partner-logo > img {
+    width: 124px;
+  }
+}
