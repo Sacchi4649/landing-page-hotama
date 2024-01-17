@@ -66,7 +66,7 @@
 /* Tablet */
 @media (min-width: 601px) and (max-width: 800px) {
   .second-headline {
-    margin-bottom: 128px;
+    margin-bottom: 90px;
   }
   .discover-more::before {
     content: "";
@@ -75,12 +75,23 @@
   .discover-more::after {
     content: "";
   }
+  .second-headline-text-container {
+    gap: 30px;
+  }
+
+  .second-headline-subtext {
+    margin-bottom: 45px;
+  }
+
+  .second-headline-subtext > p {
+    width: 78%;
+  }
 }
 
 /* Mobile Phone  */
 @media (max-width: 600px) {
   .second-headline {
-    margin-bottom: 68px;
+    margin-bottom: 64px;
   }
   .second-headline-maintext {
     font-size: 46px;
@@ -88,6 +99,7 @@
 
   .second-headline-subtext > p {
     font-size: 18px;
+    width: 80%;
   }
 
   .discover-more::before {
@@ -96,5 +108,13 @@
 
   .discover-more::after {
     content: "";
+  }
+
+  .second-headline-text-container {
+    gap: 30px;
+  }
+
+  .second-headline-subtext {
+    margin-bottom: 45px;
   }
 }
