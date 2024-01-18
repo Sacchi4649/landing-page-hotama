@@ -152,15 +152,15 @@
   background: #fff !important;
 }
 
-@media (min-width: 601px) and (max-width: 800px) {
-  /* Styles for tablets */
+/* @media (min-width: 601px) and (max-width: 800px) {
+
   .testi-content {
     width: 80%;
   }
 }
 
 @media (max-width: 600px) {
-  /* Styles for mobile devices */
+
 
   .testi-content {
     width: 90%;
@@ -173,10 +173,10 @@
     justify-content: center;
     align-items: center;
     transition: transform 0.5s ease-in-out;
-    width: 100%; /* Make sure each slide takes 100% width */
+    width: 100%; 
   }
 
   .swiper-container {
-    overflow: hidden; /* Hide overflow for smaller screens */
+    overflow: hidden;
   }
-}
+} */

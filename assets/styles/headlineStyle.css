@@ -53,7 +53,7 @@
 
 .teal-circle {
   position: absolute;
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .right-headline-container::before {
@@ -70,34 +70,85 @@
   left: 40%;
 }
 
-/* (min-width: 601px) and */
-
-@media (max-width: 800px) {
+/* Tablet */
+@media (min-width: 601px) and (max-width: 800px) {
   .headline {
-    overflow: hidden;
-    padding-bottom: 220px;
+    padding-bottom: 186px;
+    padding-top: 73px;
   }
   .main-headline div > h1 {
-    font-size: 18px;
+    font-size: 56px;
+    text-align: center;
+  }
+
+  .left-headline-container {
+    width: 72%;
+    justify-content: center;
+    align-items: center;
   }
 
   .right-headline-container {
     display: none;
   }
 
-  .right-headline-container::before {
-    content: url("");
+  .left-headline-container::before {
+    content: url(../images/yellow_circle.png);
     position: absolute;
+    top: -18%;
+    left: -12%;
   }
 
-  .right-headline-container::after {
-    content: url("");
+  .left-headline-container::after {
+    content: url(../images/light_green_circle.png);
     position: absolute;
+    bottom: 14%;
+    left: 104%;
   }
   .teal-circle {
-    /* top: -400px;
-    right: -300px; */
-    content: url(../images/teal_circle.png);
+    content: url(../images/teal_circle_tablet.png);
+  }
+
+  .teal-circle > img {
+    display: none;
+  }
+}
+
+/* Phone */
+@media (max-width: 600px) {
+  .headline {
+    padding-bottom: 126px;
+    padding-top: 63px;
+  }
+  .main-headline div > h1 {
+    font-size: 46px;
+    text-align: center;
+  }
+
+  .left-headline-container {
+    width: 82%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right-headline-container {
+    display: none;
+  }
+
+  .left-headline-container::before {
+    content: url(../images/yellow_circle.png);
+    position: absolute;
+    top: -18%;
+    left: -12%;
+  }
+
+  .left-headline-container::after {
+    content: url(../images/light_green_circle.png);
+    position: absolute;
+    bottom: -20%;
+    left: 90%;
+  }
+  .teal-circle {
+    content: url(../images/teal_circle_mobile.png);
   }
 
   .teal-circle > img {
