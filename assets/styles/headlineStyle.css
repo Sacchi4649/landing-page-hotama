@@ -134,19 +134,19 @@
     display: none;
   }
 
-  /* .left-headline-container::before {
-    content: url(../images/yellow_circle.png);
+  .left-headline-container::before {
+    content: url(../images/yellow_circle_mobile.png);
     position: absolute;
     top: -18%;
     left: -12%;
   }
 
   .left-headline-container::after {
-    content: url(../images/light_green_circle.png);
+    content: url(../images/light_green_circle_mobile.png);
     position: absolute;
     bottom: -20%;
     left: 90%;
-  } */
+  }
   .teal-circle {
     content: url(../images/teal_circle_mobile.png);
   }
