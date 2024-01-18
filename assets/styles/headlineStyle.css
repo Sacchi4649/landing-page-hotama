@@ -134,7 +134,7 @@
     display: none;
   }
 
-  .left-headline-container::before {
+  /* .left-headline-container::before {
     content: url(../images/yellow_circle.png);
     position: absolute;
     top: -18%;
@@ -146,7 +146,7 @@
     position: absolute;
     bottom: -20%;
     left: 90%;
-  }
+  } */
   .teal-circle {
     content: url(../images/teal_circle_mobile.png);
   }
