@@ -39,14 +39,13 @@ footer a {
   font-weight: 400;
   line-height: normal;
 }
-footer h4 {
+footer h3 {
   color: #47c9b1;
   font-family: Plus Jakarta Sans;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-
   text-align: left;
 }
 
@@ -93,14 +92,6 @@ footer li {
   flex-basis: 141px;
   gap: 16px;
 }
-
-/* @media (max-width: 600px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 40px;
-  }
-} */
 
 /* Tablet */
 @media (min-width: 601px) and (max-width: 800px) {
