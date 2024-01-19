@@ -36,7 +36,7 @@
 }
 
 .left-about-container::after {
-  content: url(../images/founder_card.png);
+  content: url(../images/founder_card.webp);
   position: absolute;
   bottom: -70px;
   right: -125px;
@@ -54,7 +54,7 @@
   }
 
   .left-about-container::after {
-    content: url(../images/founder_card_tablet.png);
+    content: url(../images/founder_card_tablet.webp);
     position: absolute;
     bottom: -56px;
     left: 125px;
@@ -95,7 +95,7 @@
   }
 
   .left-about-container::after {
-    content: url(../images/founder_card_mobile.png);
+    content: url(../images/founder_card_mobile.webp);
     position: absolute;
     bottom: -56px;
     left: 80px;

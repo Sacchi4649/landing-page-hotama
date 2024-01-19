@@ -57,14 +57,14 @@
 }
 
 .right-headline-container::before {
-  content: url(../images/yellow_circle.png);
+  content: url(../images/yellow_circle.webp);
   position: absolute;
   top: 56%;
   left: -2%;
 }
 
 .right-headline-container::after {
-  content: url(../images/light_green_circle.png);
+  content: url(../images/light_green_circle.webp);
   position: absolute;
   bottom: -36%;
   left: 40%;
@@ -92,20 +92,20 @@
   }
 
   .left-headline-container::before {
-    content: url(../images/yellow_circle.png);
+    content: url(../images/yellow_circle.webp);
     position: absolute;
     top: -18%;
     left: -12%;
   }
 
   .left-headline-container::after {
-    content: url(../images/light_green_circle.png);
+    content: url(../images/light_green_circle.webp);
     position: absolute;
     bottom: 14%;
     left: 104%;
   }
   .teal-circle {
-    content: url(../images/teal_circle_tablet.png);
+    content: url(../images/teal_circle_tablet.webp);
   }
 
   .teal-circle > img {
@@ -135,20 +135,20 @@
   }
 
   .left-headline-container::before {
-    content: url(../images/yellow_circle_mobile.png);
+    content: url(../images/yellow_circle_mobile.webp);
     position: absolute;
     top: -18%;
     left: -12%;
   }
 
   .left-headline-container::after {
-    content: url(../images/light_green_circle_mobile.png);
+    content: url(../images/light_green_circle_mobile.webp);
     position: absolute;
     bottom: -20%;
     left: 90%;
   }
   .teal-circle {
-    content: url(../images/teal_circle_mobile.png);
+    content: url(../images/teal_circle_mobile.webp);
   }
 
   .teal-circle > img {

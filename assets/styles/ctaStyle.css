@@ -42,7 +42,7 @@
   position: relative;
 }
 .right-cta-container > h2::before {
-  content: url(../images/star.png);
+  content: url(../images/star.webp);
 
   position: absolute;
   top: -40px;
@@ -50,7 +50,7 @@
 }
 
 .right-cta-container > p::after {
-  content: url(../images/sparkle.png);
+  content: url(../images/sparkle.webp);
   position: absolute;
   top: 80px;
 }
@@ -82,7 +82,7 @@
   }
 
   .right-cta-container > h2::before {
-    content: url(../images/star.png);
+    content: url(../images/star.webp);
 
     position: absolute;
     top: -60px;
@@ -90,7 +90,7 @@
   }
 
   .right-cta-container > p::after {
-    content: url(../images/sparkle.png);
+    content: url(../images/sparkle.webp);
     position: absolute;
     top: 180px;
     right: -50px;
@@ -130,7 +130,7 @@
   }
 
   .right-cta-container > p::after {
-    content: url(../images/sparkle.png);
+    content: url(../images/sparkle.webp);
     position: absolute;
     top: 180px;
     right: -20px;

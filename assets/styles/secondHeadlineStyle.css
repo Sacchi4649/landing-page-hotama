@@ -48,7 +48,7 @@
 }
 
 .discover-more::before {
-  content: url(../images/decorations_dots.png);
+  content: url(../images/decorations_dots.webp);
 
   position: absolute;
   left: 100px;
@@ -56,7 +56,7 @@
 }
 
 .discover-more::after {
-  content: url(../images/decorations_dots.png);
+  content: url(../images/decorations_dots.webp);
 
   position: absolute;
   right: 100px;
