@@ -44,7 +44,7 @@ span {
 
 #backtotop {
   display: none;
-  position: fixed;
+  /* position: fixed; */
   top: 690px;
   left: 10px;
   background-color: rgba(35, 35, 35, 0.65);
