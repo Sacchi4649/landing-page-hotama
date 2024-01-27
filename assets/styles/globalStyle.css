@@ -43,6 +43,7 @@ span {
 }
 
 #backtotop {
+  display: none;
   position: fixed;
   top: 690px;
   left: 10px;

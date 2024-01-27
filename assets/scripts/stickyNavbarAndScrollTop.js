@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const navElement = document.querySelector("header");
   window.onscroll = function () {
     // scrollFunction();
-    if (window.pageYOffset > 50) {
+    if (window.pageYOffset > 100) {
       backtotop.style.position = "fixed";
       backtotop.style.display = "inline-block";
 
